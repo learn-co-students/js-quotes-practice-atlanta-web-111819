@@ -11,7 +11,8 @@
 </head>
 <body class='container center'>
   <h1>My favorite quotes:</h1>
-  <div>
+  <button class="btn btn-primary" id='sort-button'>Sort by Author: OFF</button>
+  <div class="scroll">
     <ul id="quote-list">
     </ul>
   </div>
@@ -20,11 +21,11 @@
     <form id="new-quote-form">
       <div class="form-group">
         <label for="new-quote">New Quote</label>
-        <input type="text" class="form-control" id="new-quote" placeholder="Learn. Love. Code.">
+        <input type="text" class="form-control" id="new-quote" placeholder="Learn. Love. Code." name="quote-text">
       </div>
       <div class="form-group">
         <label for="Author">Author</label>
-        <input type="text" class="form-control" id="author" placeholder="Flatiron School">
+        <input type="text" class="form-control" id="author" placeholder="Flatiron School" name="quote-author">
       </div>
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>
