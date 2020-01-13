@@ -1,3 +1,8 @@
 #quote-list {
   padding: 20px;
 }
+
+.scroll {
+  overflow: scroll;
+  height: 50vh;
+}
